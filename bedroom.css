@@ -1,0 +1,46 @@
+body{
+    background-position: center;
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    font-size: larger;
+    margin-top: 0px;
+    border-radius: 0;
+}
+
+.heading:hover{
+    font-size: large;
+}
+
+.link{
+    background-color: black;
+    border-radius: 10px;
+    width: 80px;
+    float: right;
+    margin-right: 10px;
+}
+
+canvas{
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px grey;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.692);
+    line-height: 3;
+    text-align: center;
+    padding-top: 6px;
+    border: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
